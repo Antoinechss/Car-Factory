@@ -1,9 +1,9 @@
-#pragma once 
+#pragma once
 #include <iostream>
 
-class Wallet 
+class Wallet
 {
-    public : 
+public:
     double budget;
     double sell_rate;
     double sell_price;
@@ -14,6 +14,5 @@ class Wallet
     void reset_market();
     void reset_wallet();
     void set_sell_price(double price);
-    void update_sell_rate(); 
-
+    void update_sell_rate();
 };
